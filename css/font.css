@@ -1,0 +1,21 @@
+/*==================Lato================*/
+@font-face {
+    font-family: 'lato_regular';
+    src: url('../font/Lato/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'lato_black';
+    src: url('../font/Lato/Lato-Black.ttf');
+}
+
+@font-face {
+    font-family: 'lato_bold';
+    src: url('../font/Lato/Lato-Bold.ttf');
+}
+
+/*=================Nunito===============*/
+@font-face {
+    font-family: 'Nunito_black';
+    src: url('../font/Nunito/NunitoSans-Black.ttf');
+}
