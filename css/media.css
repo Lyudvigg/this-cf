@@ -15,6 +15,9 @@
         left: 0;
         margin: 81px auto 0;
     }
+    .header_content_title {
+        font-size: 45px;
+    }
 }
 
 @media(max-width: 1200px) {

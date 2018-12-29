@@ -42,7 +42,7 @@ submitButton.on('click', function (e) {
 
 /*===================Popup==================*/
 
-$('.header_btn').on('click', function () {
+$('.popup_btn').on('click', function () {
     $('.popup_main_block').addClass('popup_active');
     if ($('.popup_main_block').hasClass('popup_active')) {
         $('body').css({ "overflow": "hidden", });
