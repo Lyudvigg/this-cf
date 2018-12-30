@@ -243,6 +243,9 @@
     .thanks_page_footer_content {
         margin-top: 100px;
     }
+    #search_inp::placeholder {
+        font-size: 18px;
+    }
 }
 
 @media(max-height: 800px) {
