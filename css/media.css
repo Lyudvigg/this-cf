@@ -1,10 +1,30 @@
 @media(max-width: 1700px) {
-    .clickFunnels_launch_settings_icon_block img:nth-child(2), .clickFunnels_launch_settings_icon_block img:nth-child(5) {
-        display: none;
+    .clickFunnels_launch_settings_icon_block img {
+        width: 250px;
+        height: 250px;
+    }
+    .clickFunnels_launch_settings_icon_block img:nth-child(1), .clickFunnels_launch_settings_icon_block img:nth-child(4) {
+        top: 90px;
+    }
+    .clickFunnels_launch_settings_icon_block img:nth-child(2) {
+        left: 18px;
+        top: 300px;
+    }
+    .clickFunnels_launch_settings_icon_block img:nth-child(3) {
+        left: -128px;
+        bottom: 143px;
+    }
+    .clickFunnels_launch_settings_icon_block img:nth-child(5) {
+        right: 20px;
+        top: 312px;
+    }
+    .clickFunnels_launch_settings_icon_block img:nth-child(6) {
+        right: -160.3px;
+        bottom: 161.7px;
     }
 }
 
-@media(max-width: 1450px) {
+@media(max-width: 1500px) {
     .header_search_block form, .header_search_block input {
         max-width: 450px;
         height: 50px;
@@ -15,8 +35,8 @@
     }
     .header_button button {
         width: 300px;
-        font-size: 35px;
-        min-height: 65px;
+        font-size: 30px;
+        min-height: 60px;
     }
     .header_content_subtitle {
         font-size: 20px;
@@ -47,6 +67,59 @@
     .custom_code_table table tr th:nth-child(2) span {
         font-size: 25px;
     }
+    .header_content_wordpress_name {
+        margin-top: 240px;
+    }
+    .wrong_domain_title span {
+        font-size: 30px;
+    }
+    .wrong_domain_title, .wrong_domain_block h4, .wrong_domain_addres, .custom_code_dots_block button {
+        font-size: 20px;
+    }
+    .wrong_domain_block {
+        max-width: 500px;
+        min-height: auto;
+    }
+    .news_content_block {
+        max-width: 800px;
+        margin-top: 0px;
+    }
+    .good_news h4, .bad_news h4 {
+        font-size: 35px;
+    }
+    .good_news h2, .bad_news h2 {
+        font-size: 40px;
+    }
+    .clickFunnels_launch_content h3 {
+        font-size: 40px;
+    }
+    .title_block h2 {
+        font-size: 50px;
+    }
+    .popup h2 {
+        font-size: 45px;
+    }
+    .popup form input {
+        max-width: 450px;
+        margin: auto;
+    }
+    .popup form button {
+        font-size: 35px;
+    }
+    .popup_block {
+        height: 600px;
+    }
+    .clickFunnels_launch_content button, footer button {
+        max-width: 300px;
+        font-size: 30px;
+    }
+    .whatch_video a {
+        margin: 140px auto 0;
+    }
+    .footer {
+        -webkit-clip-path: polygon(0 0, 100% 43.5%, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 43.5%, 100% 100%, 0% 100%);
+    }
 }
 
 @media(max-width: 1365px) {
@@ -58,6 +131,52 @@
     }
     .header_content_title {
         font-size: 45px;
+    }
+    .clickFunnels_launch_settings_icon_block img {
+        width: 170px;
+        height: 170px;
+    }
+    .clickFunnels_launch_settings_icon_block img:nth-child(1), .clickFunnels_launch_settings_icon_block img:nth-child(4) {
+        top: 150px;
+    }
+    .clickFunnels_launch_settings_icon_block img:nth-child(2) {
+        left: -20px;
+        top: 292px;
+    }
+    .clickFunnels_launch_settings_icon_block img:nth-child(3) {
+        left: -121px;
+        bottom: 290px;
+    }
+    .clickFunnels_launch_settings_icon_block img:nth-child(5) {
+        right: -2px;
+        top: 300px;
+    }
+    .clickFunnels_launch_settings_icon_block img:nth-child(6) {
+        right: -76.3px;
+        bottom: 265.7px;
+    }
+    .clickFunnels_launch_content h3 {
+        font-size: 35px;
+    }
+    .clickFunnels_launch_content p {
+        max-width: 700px;
+        font-size: 25px;
+    }
+    .thanks_page_header_content h2 {
+        font-size: 55px;
+    }
+    .thanks_page_header_content h3 {
+        font-size: 35px;
+    }
+    .thanks_page_header_content h4 {
+        font-size: 25px;
+    }
+    .whatch_video a {
+        margin: 172px auto 0;
+    }
+    .footer {
+        -webkit-clip-path: polygon(0 0, 100% 40.5%, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 40.5%, 100% 100%, 0% 100%);
     }
 }
 
@@ -116,11 +235,10 @@
     .clickFunnels_launch {
         margin-top: 300px;
     }
-    .clickFunnels_launch_settings_icon_block img:nth-child(3), .clickFunnels_launch_settings_icon_block img:nth-child(6) {
+    .clickFunnels_launch_settings_icon_block img {
         display: none;
     }
     .news_content_block {
-        background-size: cover;
         margin-bottom: 25px;
     }
     /*================Thanks Page==================*/

@@ -688,6 +688,18 @@ footer button {
     right: 77px;
 }
 
+.clickFunnels_launch_settings_icon_block img:nth-child(1), .clickFunnels_launch_settings_icon_block img:nth-child(4), .clickFunnels_launch_settings_icon_block img:nth-child(3), .clickFunnels_launch_settings_icon_block img:nth-child(6) {
+    animation: settings_animate_1 5s infinite;
+    -webkit-animation: settings_animate_1 5s infinite;
+    animation-timing-function: linear;
+}
+
+.clickFunnels_launch_settings_icon_block img:nth-child(2), .clickFunnels_launch_settings_icon_block img:nth-child(5) {
+    animation: settings_animate_2 5s infinite;
+    -webkit-animation: settings_animate_2 5s infinite;
+    animation-timing-function: linear;
+}
+
 /*=================Popup=================*/
 
 .popup_main_block {
@@ -789,6 +801,19 @@ footer button {
     height: 711px;
     position: absolute;
     background: #ED1C24;
+}
+
+.popup_block::before {
+    content: '';
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    background-image: url(../img/popup_bottom_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    right: 0;
 }
 
 .popup_img {
@@ -987,7 +1012,7 @@ footer button {
 .whatch_video a {
     max-width: 690px;
     height: 90px;
-    margin: 108px auto 0;
+    margin: 125px auto 0;
     background: #ED1C24;
     border-radius: 121px;
     -webkit-border-radius: 121px;
@@ -1051,4 +1076,26 @@ footer button {
     -moz-border-radius: 121px;
     -ms-border-radius: 121px;
     -o-border-radius: 121px;
+}
+
+/*=================Animate===============*/
+
+@keyframes settings_animate_1 {
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+}
+
+@keyframes settings_animate_2 {
+    100% {
+        transform: rotate(-360deg);
+        -webkit-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+        -o-transform: rotate(-360deg);
+    }
 }
