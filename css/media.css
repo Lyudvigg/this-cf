@@ -120,6 +120,15 @@
         -webkit-clip-path: polygon(0 0, 100% 43.5%, 100% 100%, 0% 100%);
         clip-path: polygon(0 0, 100% 43.5%, 100% 100%, 0% 100%);
     }
+    .thanks_page_header_content h2 {
+        font-size: 55px;
+    }
+    .thanks_page_header_content h3 {
+        font-size: 35px;
+    }
+    .thanks_page_header_content h4 {
+        font-size: 25px;
+    }
 }
 
 @media(max-width: 1365px) {
@@ -160,15 +169,6 @@
     }
     .clickFunnels_launch_content p {
         max-width: 700px;
-        font-size: 25px;
-    }
-    .thanks_page_header_content h2 {
-        font-size: 55px;
-    }
-    .thanks_page_header_content h3 {
-        font-size: 35px;
-    }
-    .thanks_page_header_content h4 {
         font-size: 25px;
     }
     .whatch_video a {
