@@ -1,10 +1,51 @@
-@media(max-width: 1800px) {
+@media(max-width: 1700px) {
     .clickFunnels_launch_settings_icon_block img:nth-child(2), .clickFunnels_launch_settings_icon_block img:nth-child(5) {
         display: none;
     }
+}
+
+@media(max-width: 1450px) {
+    .header_search_block form, .header_search_block input {
+        max-width: 450px;
+        height: 50px;
+        font-size: 25px;
+    }
+    .header_content_title, .header_logo a {
+        font-size: 45px;
+    }
+    .header_button button {
+        width: 300px;
+        font-size: 35px;
+        min-height: 65px;
+    }
+    .header_content_subtitle {
+        font-size: 20px;
+    }
+    .header_search_block button {
+        width: 60px;
+        height: 50px;
+    }
+    .header_search_block button::before {
+        width: 30px;
+        height: 30px;
+    }
+    .header_nav_block {
+        padding: 25px 60px 70px;
+    }
     .header_content {
-        background-size: cover;
-        background-position: left;
+        min-height: 850px;
+    }
+    .screenshots__item {
+        max-width: 550px;
+    }
+    .screenshots_block {
+        justify-content: space-around;
+    }
+    .screenshots__item ul li {
+        font-size: 27px;
+    }
+    .custom_code_table table tr th:nth-child(2) span {
+        font-size: 25px;
     }
 }
 
@@ -49,6 +90,10 @@
     .footer {
         -webkit-clip-path: polygon(0 0, 100% 41%, 100% 100%, 0% 100%);
         clip-path: polygon(0 0, 100% 41%, 100% 100%, 0% 100%);
+    }
+    .header_content {
+        background-size: cover;
+        background-position: right;
     }
 }
 
@@ -116,9 +161,6 @@
     }
     .header_content_title, .good_news h4, .bad_news h4 {
         font-size: 35px;
-    }
-    .header_content_subtitle {
-        font-size: 20px;
     }
     .news_content_block {
         background: #3E284C;
@@ -211,7 +253,7 @@
     .thanks_page_footer_content__item {
         flex-direction: column;
     }
-    .thanks_page_footer_content__item_btn button{
+    .thanks_page_footer_content__item_btn button {
         display: block;
         margin: auto;
         margin-top: 25px;

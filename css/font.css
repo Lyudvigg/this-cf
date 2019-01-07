@@ -14,8 +14,8 @@
     src: url('../font/Lato/Lato-Bold.ttf');
 }
 
-/*=================Nunito===============*/
+/*================Quicksand=================*/
 @font-face {
-    font-family: 'Nunito_black';
-    src: url('../font/Nunito/NunitoSans-Black.ttf');
+    font-family: 'Quicksand_bold';
+    src: url('../font/quicksand/Quicksand-Bold.ttf');
 }
