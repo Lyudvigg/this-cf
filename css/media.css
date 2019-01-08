@@ -114,7 +114,13 @@
         font-size: 30px;
     }
     .whatch_video a {
-        margin: 133px auto 0;
+        margin: 175px auto 0;
+        font-size: 35px;
+        max-width: 600px;
+        height: 80px;
+    }
+    .thanks_page_footer_content__item h3, .thanks_page_footer_content__item_btn button {
+        font-size: 35px;
     }
     .footer {
         -webkit-clip-path: polygon(0 0, 100% 43.5%, 100% 100%, 0% 100%);
@@ -318,6 +324,9 @@
         margin-top: 0;
         -webkit-clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
         clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
+    }
+    .whatch_video a {
+        margin: 150px auto 0;
     }
 }
 
